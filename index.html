@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>я заболел</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: sans-serif;
+            background: linear-gradient(135deg, #d0d0d0, #f5f5f5);
+            background-size: 200% 200%;
+            animation: move 4s ease infinite alternate;
+        }
+
+        @keyframes move {
+            0% { background-position: 0% 0%; }
+            100% { background-position: 100% 100%; }
+        }
+
+        img {
+            max-width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #444;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="boy_kisser.jpg" alt="boy_kisser">
+        <h1>я заболел</h1>
+    </div>
+</body>
+</html>
